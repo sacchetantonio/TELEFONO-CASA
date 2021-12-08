@@ -1,0 +1,120 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: transparent;
+  border-radius: 0;
+  border-width: 0px;
+  color: pink;
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  font-size: 75px;
+  font-family: "Lobster", cursive;
+}
+
+form.box {
+  width: 250px;
+  height: 320px;
+
+  font-size: 15px;
+  position: absolute;
+  left: 100px;
+  top: 185px;
+
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#chat-window {
+  background-color: transparent;
+  border-radius: 0;
+  border-width: 0px;
+  color: pink;
+  overflow: auto;
+  font-size: 12px;
+  font-family: "Major Mono Display", monospace;
+}
+#output {
+  background-color: transparent;
+  border-radius: 0;
+  border-width: 0px;
+  color: pink;
+  overflow: auto;
+  font-size: 12px;
+  font-family: "Major Mono Display", monospace;
+}
+
+#typing {
+  width: 300 px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  border-width: 0px;
+  border-style: solid;
+  color: PINK;
+  position: absolute;
+  left: 100px;
+  top: 500px;
+  font-size: 10px;
+  font-family: "Major Mono Display", monospace;
+}
+#handle {
+  width: 200 px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: pink;
+  border-width: 1px;
+  border-style: solid;
+  color: pink;
+  position: absolute;
+  left: 100px;
+  top: 570px;
+  font-size: 10px;
+  font-family: "Major Mono Display", monospace;
+}
+#message {
+  width: 300 px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: pink;
+  border-width: 1px;
+  border-style: solid;
+  color: pink;
+  position: absolute;
+  left: 100px;
+  top: 540px;
+  font-size: 10px;
+  font-family: "Major Mono Display", monospace;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: pink;
+  border-radius: 0;
+  border-color: white;
+  border-width: 0px;
+  border-style: solid;
+  color: black;
+  position: absolute;
+  left: 100px;
+  top: 600px;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+#instruction {
+  background-color: transparent;
+  border-radius: 0;
+  border-width: 0px;
+  color: pink;
+  position: absolute;
+  left: 100px;
+  top: 650px;
+  font-size: 20px;
+  font-family: "Major Mono Display", monospace;
+}
