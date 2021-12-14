@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* TITLE */
 h1 {
   background-color: transparent;
   border-radius: 0;
@@ -15,6 +17,7 @@ h1 {
   font-family: "Lobster", cursive;
 }
 
+/* BOX CHAT */
 form.box {
   width: 250px;
   height: 320px;
@@ -47,6 +50,7 @@ form.box {
   font-family: "Major Mono Display", monospace;
 }
 
+/* USER TYPING */
 #typing {
   width: 300 px;
   height: 20px;
@@ -61,6 +65,8 @@ form.box {
   font-size: 10px;
   font-family: "Major Mono Display", monospace;
 }
+
+/* INPUT */
 #handle {
   width: 200 px;
   height: 20px;
@@ -107,6 +113,7 @@ button {
   font-size: 20px;
   font-family: "Lobster", cursive;
 }
+
 #instruction {
   background-color: transparent;
   border-radius: 0;

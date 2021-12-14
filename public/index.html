@@ -4,39 +4,52 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- TITLE APP -->
     <title>📞 🏠</title>
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 
+    <!-- LIBRARIES -->
     <script src="libraries/p5.js"></script>
     <script src="libraries/p5.sound.js"></script>
     <script src="libraries/p5.easycam.js"></script>
     <script src="libraries/p5.3D.js"></script>
     <script src="/socket.io/socket.io.js"></script>
+
+    <!-- FONTS -->
+    <!-- LOBSTER -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <!-- MAYOR MONO -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
       rel="stylesheet"
     />
+
+    <!-- ELEMENTS -->
+    <!-- TITLE APP -->
   </head>
   <h1 class="h3 mb-3 fw-normal">telefono casa</h1>
+
+  <!-- MAIN BOX (CHAT) -->
   <body>
+    <!-- TEXTS FLOW -->
     <form class="box" id="box">
-      <form class="box-inner">
-        <div id="output"></div>
-        <div id="chat-window"></div>
-      </form>
+      <div id="output"></div>
+      <div id="chat-window"></div>
     </form>
+
+    <!-- USER TYPING -->
     <div id="typing"></div>
 
     <form>
+      <!-- USERNAME -->
       <div class="form-floating">
         <input
           type="text"
@@ -44,9 +57,11 @@
           id="handle"
           placeholder="name"
           required
-          autofocus
+          autocomplete="off"
         />
       </div>
+
+      <!-- TEXT -->
       <div class="form-floating">
         <input
           type="text"
@@ -54,14 +69,19 @@
           id="message"
           placeholder="enter a message"
           required
+          autocomplete="off"
         />
       </div>
 
+      <!-- SENDING BUTTON -->
       <button id="button" class="btn btn-lg btn-primary" type="submit">
         Send
       </button>
     </form>
+
+    <!-- INSTRUCTIONS -->
     <div id="instruction">DRAG AND SCROLL TO MOVE IN THE COSMO</div>
+
     <script src="socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
   </body>
