@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+
+
+.textBar {
+ 
+  background-color: black;
+  border-radius: 0;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+
+  font-weight: bold;
+  animation-fill-mode: none;
+}
+.enterButton{
+  font-size: 12;
+  font-family: "Roboto Mono";
+  color: white;
+  background-color: black;
+  border-radius: 0;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.maskButton {
+  width: 270px;
+  height: 30px;
+  background-color: black;
+  border-radius: 0;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+  font-size: 20;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+}
+
+#planted {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  width: 0%;
+  z-index: 4;
+}
